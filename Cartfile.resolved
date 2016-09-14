@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "3.5.0"
+github "uacaps/PageMenu" "1.2.9"
+github "rs/SDWebImage" "3.8.2"
+github "SwiftyJSON/SwiftyJSON" "2.3.3"

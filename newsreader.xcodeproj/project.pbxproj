@@ -14,6 +14,14 @@
 		4EF5F4D61D88CFA000A29AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5F4D41D88CFA000A29AFB /* LaunchScreen.storyboard */; };
 		4EF5F4E11D88CFA000A29AFB /* newsreaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5F4E01D88CFA000A29AFB /* newsreaderTests.swift */; };
 		4EF5F4EC1D88CFA000A29AFB /* newsreaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5F4EB1D88CFA000A29AFB /* newsreaderUITests.swift */; };
+		4EF5F4FD1D88D49500A29AFB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5F4F91D88D49500A29AFB /* Alamofire.framework */; };
+		4EF5F4FE1D88D49500A29AFB /* PageMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5F4FA1D88D49500A29AFB /* PageMenu.framework */; };
+		4EF5F4FF1D88D49500A29AFB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5F4FB1D88D49500A29AFB /* SwiftyJSON.framework */; };
+		4EF5F5001D88D49500A29AFB /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5F4FC1D88D49500A29AFB /* WebImage.framework */; };
+		4EF5F5041D88F97F00A29AFB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5F5021D88F97F00A29AFB /* TableViewController.swift */; };
+		4EF5F5051D88F97F00A29AFB /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5F5031D88F97F00A29AFB /* TableViewController.xib */; };
+		4EF5F5081D89016A00A29AFB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5F5061D89016A00A29AFB /* TableViewCell.swift */; };
+		4EF5F5091D89016A00A29AFB /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5F5071D89016A00A29AFB /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		4EF5F4E71D88CFA000A29AFB /* newsreaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newsreaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF5F4EB1D88CFA000A29AFB /* newsreaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsreaderUITests.swift; sourceTree = "<group>"; };
 		4EF5F4ED1D88CFA000A29AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF5F4F91D88D49500A29AFB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		4EF5F4FA1D88D49500A29AFB /* PageMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PageMenu.framework; path = Carthage/Build/iOS/PageMenu.framework; sourceTree = "<group>"; };
+		4EF5F4FB1D88D49500A29AFB /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		4EF5F4FC1D88D49500A29AFB /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
+		4EF5F5021D88F97F00A29AFB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		4EF5F5031D88F97F00A29AFB /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewController.xib; path = ../TableViewController.xib; sourceTree = "<group>"; };
+		4EF5F5061D89016A00A29AFB /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4EF5F5071D89016A00A29AFB /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF5F4FD1D88D49500A29AFB /* Alamofire.framework in Frameworks */,
+				4EF5F4FE1D88D49500A29AFB /* PageMenu.framework in Frameworks */,
+				4EF5F4FF1D88D49500A29AFB /* SwiftyJSON.framework in Frameworks */,
+				4EF5F5001D88D49500A29AFB /* WebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +97,13 @@
 		4EF5F4BF1D88CFA000A29AFB = {
 			isa = PBXGroup;
 			children = (
+				4EF5F4F91D88D49500A29AFB /* Alamofire.framework */,
+				4EF5F4FA1D88D49500A29AFB /* PageMenu.framework */,
+				4EF5F4FB1D88D49500A29AFB /* SwiftyJSON.framework */,
+				4EF5F4FC1D88D49500A29AFB /* WebImage.framework */,
 				4EF5F4CA1D88CFA000A29AFB /* newsreader */,
 				4EF5F4DF1D88CFA000A29AFB /* newsreaderTests */,
 				4EF5F4EA1D88CFA000A29AFB /* newsreaderUITests */,
-				4EF5F4C91D88CFA000A29AFB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,17 +115,22 @@
 				4EF5F4E71D88CFA000A29AFB /* newsreaderUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4EF5F4CA1D88CFA000A29AFB /* newsreader */ = {
 			isa = PBXGroup;
 			children = (
+				4EF5F5021D88F97F00A29AFB /* TableViewController.swift */,
+				4EF5F5031D88F97F00A29AFB /* TableViewController.xib */,
 				4EF5F4CB1D88CFA000A29AFB /* AppDelegate.swift */,
 				4EF5F4CD1D88CFA000A29AFB /* ViewController.swift */,
 				4EF5F4CF1D88CFA000A29AFB /* Main.storyboard */,
 				4EF5F4D21D88CFA000A29AFB /* Assets.xcassets */,
 				4EF5F4D41D88CFA000A29AFB /* LaunchScreen.storyboard */,
 				4EF5F4D71D88CFA000A29AFB /* Info.plist */,
+				4EF5F5061D89016A00A29AFB /* TableViewCell.swift */,
+				4EF5F5071D89016A00A29AFB /* TableViewCell.xib */,
 			);
 			path = newsreader;
 			sourceTree = "<group>";
@@ -119,6 +147,7 @@
 		4EF5F4EA1D88CFA000A29AFB /* newsreaderUITests */ = {
 			isa = PBXGroup;
 			children = (
+				4EF5F4C91D88CFA000A29AFB /* Products */,
 				4EF5F4EB1D88CFA000A29AFB /* newsreaderUITests.swift */,
 				4EF5F4ED1D88CFA000A29AFB /* Info.plist */,
 			);
@@ -135,6 +164,7 @@
 				4EF5F4C41D88CFA000A29AFB /* Sources */,
 				4EF5F4C51D88CFA000A29AFB /* Frameworks */,
 				4EF5F4C61D88CFA000A29AFB /* Resources */,
+				4EF5F5011D88D5B600A29AFB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -193,6 +223,7 @@
 				TargetAttributes = {
 					4EF5F4C71D88CFA000A29AFB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LZPN4F847E;
 					};
 					4EF5F4DB1D88CFA000A29AFB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -230,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF5F4D61D88CFA000A29AFB /* LaunchScreen.storyboard in Resources */,
+				4EF5F5091D89016A00A29AFB /* TableViewCell.xib in Resources */,
 				4EF5F4D31D88CFA000A29AFB /* Assets.xcassets in Resources */,
 				4EF5F4D11D88CFA000A29AFB /* Main.storyboard in Resources */,
+				4EF5F5051D88F97F00A29AFB /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +284,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EF5F5011D88D5B600A29AFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PageMenu.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WebImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EF5F4C41D88CFA000A29AFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4EF5F4CE1D88CFA000A29AFB /* ViewController.swift in Sources */,
+				4EF5F5081D89016A00A29AFB /* TableViewCell.swift in Sources */,
+				4EF5F5041D88F97F00A29AFB /* TableViewController.swift in Sources */,
 				4EF5F4CC1D88CFA000A29AFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +454,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = newsreader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepit.newsreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +472,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = newsreader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepit.newsreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

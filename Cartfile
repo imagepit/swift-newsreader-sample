@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" == 3.5
+github "SwiftyJSON/SwiftyJSON"
+github "uacaps/PageMenu"
+github "rs/SDWebImage"
