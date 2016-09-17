@@ -224,13 +224,16 @@
 					4EF5F4C71D88CFA000A29AFB = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = LZPN4F847E;
+						LastSwiftMigration = 0800;
 					};
 					4EF5F4DB1D88CFA000A29AFB = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4EF5F4C71D88CFA000A29AFB;
 					};
 					4EF5F4E61D88CFA000A29AFB = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4EF5F4C71D88CFA000A29AFB;
 					};
 				};
@@ -465,6 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepit.newsreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -483,6 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepit.newsreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -494,6 +499,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepit.newsreaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newsreader.app/newsreader";
 			};
 			name = Debug;
@@ -506,6 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepit.newsreaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newsreader.app/newsreader";
 			};
 			name = Release;
@@ -517,6 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepit.newsreaderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = newsreader;
 			};
 			name = Debug;
@@ -528,6 +536,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepit.newsreaderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = newsreader;
 			};
 			name = Release;
@@ -551,6 +560,7 @@
 				4EF5F4F21D88CFA000A29AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EF5F4F31D88CFA000A29AFB /* Build configuration list for PBXNativeTarget "newsreaderTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +569,7 @@
 				4EF5F4F51D88CFA000A29AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EF5F4F61D88CFA000A29AFB /* Build configuration list for PBXNativeTarget "newsreaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +578,7 @@
 				4EF5F4F81D88CFA000A29AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
